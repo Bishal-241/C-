@@ -6,7 +6,7 @@ int main(){
     // input i ,j value
     printf("Enter (i,j) of matrics");
     scanf("%d,%d",&l,&m);
-    
+
     int  myarr1[l][m] ,myarr2[l][m];
 
 
@@ -48,9 +48,6 @@ int main(){
         printf("\n");
     }
     printf("\n ----------------------------- \n");
-
-
-
     for(i = 0;i<l;i++){
         for(j = 0;j<m;j++){
             printf("%d \t",(myarr1[i][j]+myarr2[i][j]));
@@ -58,10 +55,8 @@ int main(){
         printf("\n");
     }
 
-    
     return 0;
-
-
-
-
 }
+
+
+
